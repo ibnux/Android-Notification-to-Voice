@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/checkPermission"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="check Permission"
+        app:showAsAction="always" />
+
+    <item
+            android:id="@+id/testVoice"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="Test Voice"
+            app:showAsAction="never" />
+
+    <item
+            android:id="@+id/checkData"
+            android:title="Check Data"
+            app:showAsAction="never" />
+</menu>
